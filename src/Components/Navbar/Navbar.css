@@ -45,6 +45,29 @@ nav {
     border-radius: 50%;
 } 
 
+.suggestions-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-top: none;
+    z-index: 10;
+  }
+  
+  .suggestions-dropdown li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .suggestions-dropdown li:hover {
+    background-color: #f2f2f2;
+  }
+  
+
 @media (max-with:900px) {
     .menu-icon {
         display: none;
